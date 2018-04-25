@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<body> 
+<a href="http://www.nihao.com">´ò¿ªnihao.com</a>
+<script>
+function popup(winURL){
+window.open(winURL,"popup","width=300,height=300");
+}
+document.getElementsByTagName("a")[0].onclick=function()
+{popup(this.href); return false;};
+</script>
+</body>
+</html>
