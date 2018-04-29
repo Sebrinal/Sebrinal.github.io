@@ -1,0 +1,22 @@
+<a href="http://www.nihao.com">´ò¿ªnihao.com</a>
+<script>
+function popup(winURL){
+window.open(winURL,"popup","width=300,height=300");
+}
+window.onload=function(){
+ if(!document.getElementsByTagName) return false;
+ var links=document.getElementsByTagName("a");
+ for(var i=0;i<links.length;i++)
+{
+   link[i].onlick=function()
+{
+   popup(this.getAttribute("href"));
+   return false;
+
+
+}
+
+}
+}
+
+</script>
